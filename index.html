@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="Style.css"> <!--calls the style.css file-->
+        <link rel="shortcut icon" href="Logo.png" />
+        <link rel="manifest" href="/manifest.json">
+        <title>Game Reviews</title>
+    </head>
+    <body>
+        <img src="banner.png" height="200" width="auto" class="banner" />
+        <main> <!--another layer inside the body for freedom purposes-->
+            <div class="sidebar">
+                <p class="deadl">Home</p>
+                <a href="Reviews.html">Reviews</a>
+                <a href="Content.html">About</a>
+            </div>
+
+            <div class="text">
+            <div style="text-align: center;">
+                <p>Welcome to the website</p>
+                <p>This is the one stop shop for gaming reviews on games which I have played</p>
+                <p>All these reviews are my own opinion so keep that in mind and I will be keeping as much information about the game as possible hidden as to not spoil the games</p>
+                <p>See the about section for any other information and without further adieu enjoy the reviews</p>
+                <p>All images are made by me using adobe illustrator</p>
+                <p style="font-size: 10;">And remember its just a review</p>
+                <p style="font-size: 15;">A GAME REVIEW!</p>
+                <p>Thanks for reading</p>
+            </div>
+            </div>
+        </main>
+        
+            <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            }
+            </script>
+    </body>
+</html>
